@@ -6,7 +6,6 @@ export const Statistic =({good, neutral, bad, total, positivePercentage })=> {
     if (total > 0) 
           return (
         <section>
-          <p>Statistic</p>
           <ul>
             <li>Good: {good}</li>
             <li>Neutural: {neutral}</li>

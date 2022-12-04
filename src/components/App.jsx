@@ -31,7 +31,7 @@ state = {
     return (
       <>
       <Section title="Please leave feedback">
-        <FeedbackOptions onHandleFeedback={ this.handleFeedback} options = {['good', 'bad', 'neutral'] } />
+        <FeedbackOptions onHandleFeedback={ this.handleFeedback} options = {['good', 'neutral', 'bad'] } />
         </Section>
         
       <Section title="Statistic:">  
